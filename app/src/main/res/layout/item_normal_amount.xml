@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/tv_normal_amount"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_border_white_corner_gray"
+        android:gravity="center"
+        android:textColor="@color/selector_color_amount"
+        android:textSize="14sp"
+        tools:text="2元"/>
+</LinearLayout>
